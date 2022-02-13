@@ -42,7 +42,6 @@ function getData(data) {
 // }
 
 function searchFunction() {
-  
   for (let i = 0; i < countryName.length; i++) {
     if (
       countryName[i].toLowerCase().includes(searchedName.value) &&
@@ -65,4 +64,3 @@ function searchFunction() {
     }
   }
 }
-
