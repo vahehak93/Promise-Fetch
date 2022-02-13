@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>World Countries</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h2>My First Page</h2>
-
-    <p id="demo"></p>
-    <!-- <script src="fetch.js"></script> -->
-    <script src="promise.js"></script>
-   
+    <header>
+      <!-- <form id="myFunction" onclick="searchFunction()" >
+        <input type="search" id="search_elem" placeholder="Search for a country..." />
+      </form> -->
+      <input  id="search_elem" placeholder="Search for a country..." />
+      <button id="button" onclick="searchFunction()">Search</button>
+    </header>
+    <section id="result">
+      <div id="name_flag_content">
+        <h1 id="name_content"></h1>
+      </div>
+    </section>
+    <script src="restCountries.js"></script>
   </body>
 </html>
