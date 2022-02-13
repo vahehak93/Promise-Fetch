@@ -1,7 +1,7 @@
 function func() {
   return new Promise((res, rej) => {
     setTimeout(function () {
-      rej(new Error("ERORRRRR"));
+      rej(new Error("ERROR"));
     }, 1000);
   });
 }
@@ -17,5 +17,3 @@ p.then((result) => {
   .catch((error) => {
     alert(error);
   });
-
-
