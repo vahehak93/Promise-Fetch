@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(54, 52, 52);
+}
+
+input,
+button:hover {
+  height: 35px;
+  width: 60px;
+}
+
+input {
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-flex;
+  margin-left: 500px;
+  border-color: rgb(255, 255, 255);
+  text-transform: lowercase;
+}
+
+h1 {
+  margin-top: 50px;
+  color:rgb(255, 255, 255);
+  position: relative;
+}
+
+
+
+img {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  
+}
+
